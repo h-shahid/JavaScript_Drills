@@ -23,8 +23,7 @@ let people = [
 function checkAge() {
   for (i = 0; i < people.length; i++) {
     if (people[i].age < 21) {
-      console.log(
-        "sorry " + people[i].name + ", you aren't old enough to view this page!"
+      alert ("Sorry " + people[i].name + ", you aren't old enough to view this page!"
       );
     } else {
       console.log(people[i].name + ", you may enter!");
